@@ -1,137 +1,245 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    <title>NEURALBC-A New BlockChain World</title>
-    <link rel="shortcut icon" type="image/x-icon" href="img/ne.png"/>
+  <title>NEURALBC-A New BlockChain World</title>
+  <link rel="shortcut icon" type="image/x-icon" href="img/ne.png" />
+  <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,600" rel="stylesheet">
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap core CSS -->
 
-    <!-- Custom fonts for this template -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Plugin CSS -->
-    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+  <!-- Custom fonts for this template -->
+  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+    rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic'
+    rel='stylesheet' type='text/css'>
 
-    <!-- Custom styles for this template -->
-    <link href="css/creative.min.css" rel="stylesheet">
-	<style>
-		.nav-link{font-size: 18px !important;}
-	</style>
-  </head>
+  <!-- Plugin CSS -->
+  <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
-  <body id="page-top">
+  <!-- Custom styles for this template -->
+  <link href="css/creative.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/animate.css">
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <style>
+    .nav-link {
+      font-size: 18px !important;
+    }
+  </style>
+</head>
 
-      <div class="container">
-        <a class="js-scroll-trigger" href="#page-top"><img src="img/ne.png" style="width:200px;"></a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#ai">AI(人工智能)</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#blockchain">BLOCKCHAIN(区块链)</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#convergence">CONVERGENCE( 融合)</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contact(联系方式)</a>
-            </li>
-          </ul>
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+
+    <div class="container">
+      <a class="js-scroll-trigger" href="#page-top">
+        <img src="img/ne.png" style="width:200px;">
+      </a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#ai">AI(人工智能)</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#blockchain">BLOCKCHAIN(区块链)</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#convergence">CONVERGENCE( 融合)</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact(联系方式)</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <style>
+    html,
+    body {
+      width: 100%;
+      position: relative;
+    }
+
+    .conn {
+      width: 100%;
+      overflow-x: hidden;
+      position: relative;
+    }
+
+    .section {
+      width: 100%;
+      position: relative;
+    }
+
+    .section img {
+      width: 100%;
+
+    }
+
+    .nav-link {
+      cursor: pointer;
+    }
+
+    .sec4 {
+      margin-top: 50px;
+    }
+
+    .section-heading {
+      margin-bottom: 0px;
+      position: absolute;
+      font-size: 35px;
+      line-height: 50px;
+      text-align: center;
+      width: 100%;
+      font-family: Raleway;
+      font-weight: bold;
+      top: 0px;
+      z-index: 1;
+      opacity: 0
+    }
+
+    .section-shadow {
+      background: #666666;
+      opacity: 0.5;
+      width: 100%;
+      position: absolute;
+      top: 0px;
+    }
+
+    @media only screen and (max-width: 768px) {
+
+      .section {
+        height: 100%;
+        width: 100%;
+        position: relative
+      }
+      .sec1 {
+        background: url('./img/1.jpg') no-repeat;
+        background-size: auto 100%;
+        background-position: center;
+        margin-top: 75px;
+      }
+      .sec2 {
+        background: url('./img/2.jpg') no-repeat;
+        background-size: auto 100%;
+        background-position: center
+      }
+      .sec3 {
+        background: url('./img/3.jpg') no-repeat;
+        background-size: auto 100%;
+        background-position: center
+      }
+
+      .section img {
+        display: none;
+      }
+      .section-heading {
+        margin-bottom: 0px;
+        position: absolute;
+        font-size: 15px;
+        line-height: 30px;
+        top: 0px;
+        text-align: center;
+        width: 100%;
+        font-family: Raleway;
+        font-weight: bold;
+      }
+
+
+    }
+  </style>
+  <center id="ai" class="section sec1">
+    <img src='./img/1.jpg' />
+    <div class="section-heading text-white wow fadeInUp" style='visibility: visible; animation-delay: 0.2s;animation-name: fadeInUp;'>AI-powered Blockchain technology
+      <br> 人工智能 驱动的 区块链 技术</div>
+    <div class='section-shadow wow slideInUp' style="visibility: visible; animation-name: slideInUp;"></div>
+
+  </center>
+  <center id="blockchain" class="section sec2">
+    <img src='./img/2.jpg' />
+    <div class="section-heading text-white wow fadeInUp" style='visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;'>Blockchain-supported Middleware service
+      <br> 区块链支持中间件服务
+    </div>
+    <div class='section-shadow wow slideInUp' style="visibility: visible; animation-name: slideInUp;"></div>
+  </center>
+  <center id="convergence" class="section sec3">
+    <img src='./img/3.jpg' />
+    <div class="section-heading text-white wow fadeInUp" style='visibility: visible; animation-delay: 0.2s;animation-name: fadeInUp;'>Blockchain-supported Middleware service
+      <br> 区块链支持中间件服务
+    </div>
+    <div class='section-shadow wow slideInUp' style="visibility: visible; animation-name: slideInUp;"></div>
+
+  </center>
+  <div id="contact" class="section sec4">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 mx-auto text-center">
+          <i class="fa fa-envelope-o fa-3x mb-3 sr-contact"></i>
+          <p>
+            <a href="mailto:your-email@your-domain.com">contact@neuralbc.com</a>
+          </p>
+          <hr class="my-4 light">
+          <i class="fa fa-map-marker fa-3x mb-3 sr-contact"></i>
+          <p>
+            <a>V-PLEX bldg. , 501 Teheran-ro, Gangnam-gu, Seoul, Korea</a>
+          </p>
         </div>
       </div>
-    </nav>
-
-    <header  id="ai" class="masthead text-center text-white d-flex" style='background-size: 100%;background-repeat: no-repeat;'>
-      <div class="container my-auto">
-        <div class="row">
-          <div class="col-lg-8 mx-auto text-center">
-            <br><br><br><br><br><br>
-            <h2 class="section-heading text-white" style="background-color:black">AI-powered Blockchain technology<br>
-              人工智能 驱动的 区块链 技术</h2>
-            <hr class="my-4 light">
-          </div>
-        </div>
-      </div>
-    </header>
-
-    <section id="blockchain" style="height:1000px; background:url('img/2.jpg'); background-size: 100%;background-repeat: no-repeat;background-position: center;">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto text-center">
-            <br><br><br><br><br><br>
-            <h2 class="section-heading text-white" style="background-color:black">Blockchain-supported Middleware service<br>
-              区块链支持中间件服务</h2>
-            <hr class="my-4 light">
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="convergence"  style="height:1000px; background:url('img/3.jpg');background-size: 100%;background-repeat: no-repeat;background-position: center;">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <br><br><br><br><br><br>
-            <h2 class="section-heading text-white" style="background-color:black">Convergence of AI and Blockchain<br>
-              catalyzes the pace of innovation and introduces radical shifts in every industry.<br>
-              将 人工智能 与 区块链 融合会促进创新节奏并给每一个行业都引入了巨大变革</h2>
-            <hr class="my-4 light">
-          </div>
-        </div>
-      </div>
-    </section>
-
-	<section id="contact" style='padding-top:0px;'>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 mx-auto text-center">
-            <i class="fa fa-envelope-o fa-3x mb-3 sr-contact"></i>
-            <p>
-              <a href="mailto:your-email@your-domain.com">contact@neuralbc.com</a>
-            </p>
-			<hr class="my-4 light">
-			<i class="fa fa-map-marker fa-3x mb-3 sr-contact"></i>
-            <p>
-              <a>V-PLEX bldg. , 501 Teheran-ro, Gangnam-gu, Seoul, Korea</a>
-            </p>
-			<!--<div class='row'>
-				<img style='width:100%;' src='./img/map.jpg' />
-			</div>-->
-          </div>
-        </div>
-      </div>
-    </section>
+    </div>
+  </div>
 
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
-    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
-    <!-- Custom scripts for this template -->
-    <script src="js/creative.min.js"></script>
+  <!-- Custom scripts for this template -->
+  <script src="js/creative.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
 
-  </body>
+  <script type="text/javascript" src="./js/wow.min.js"></script>
+
+  <script>
+
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset: 100,
+        callback: function (box) {
+          if ($(box).attr('class') == 'section-heading text-white wow fadeInUp animated') { setTimeout(function () { $(box).css('opacity', '1') }, 500); }
+        }
+      }
+    );
+    wow.init();
+
+
+    $('document').ready(function () {
+      $('.section-heading').each(function (index, item) {
+        $(item).css('margin-top', ($(item).parent().height() / 2) - Number($(item).css('line-height').replace(/[^0-9]/g, "")) + 'px');
+        $(item).parent().find('.section-shadow').css({ 'height': $(item).height() * 1.5 + 'px', 'margin-top': ($(item).parent().height() / 2) - Number($(item).css('line-height').replace(/[^0-9]/g, "")) * 1.5 + 'px' })
+      });
+    });
+  </script>
+</body>
 
 </html>
